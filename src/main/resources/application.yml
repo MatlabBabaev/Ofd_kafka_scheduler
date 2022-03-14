@@ -1,0 +1,62 @@
+custom:
+  loginstance: 1
+request:
+  host: http://192.168.81.11:8080/api/
+  terminal: 111111
+payment:
+  vat: 15.0
+jhipster:
+  registry:
+    password: admin
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:${jhipster.registry.password}@192.168.11.11:8089/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    appname: qr
+
+server:
+  port: 8087
+spring:
+  cache:
+    type: redis
+  redis:
+    host: 127.0.0.1
+  application:
+    name: qr
+  devtools:
+    restart:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle10gDialect
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:oracle:thin:@oracledb:1111:test
+    username: admin
+    password: admin
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-timeout: 50000
+      idle-timeout: 50000
+
+scheduler:
+  user: user
+  password: user
+kafka:
+  consumer_topic_name: QR_SERVICE
+app:
+  version: 7.0.0
+
+
+

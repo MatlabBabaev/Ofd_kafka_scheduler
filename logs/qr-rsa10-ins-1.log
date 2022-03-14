@@ -1,0 +1,63 @@
+2022-02-01 15:13:53.626 DEBUG   18756 --- org.jboss.logging.logProvider:152 : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-02-01 15:13:53.634  INFO   18756 --- u.p.q.ofdservice.OfdserviceApplication.logStarting:55 : Starting OfdserviceApplication using Java 17.0.2 on MatlabNBU with PID 18756 (C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main started by matlab.babaev in C:\Users\matlab.babaev\IdeaProjects\ofdservice)
+2022-02-01 15:13:53.634 DEBUG   18756 --- u.p.q.ofdservice.OfdserviceApplication.logStarting:56 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-01 15:13:53.635  INFO   18756 --- u.p.q.ofdservice.OfdserviceApplication.logStartupProfileInfo:637 : No active profile set, falling back to default profiles: default
+2022-02-01 15:13:55.509 DEBUG   18756 --- i.m.c.u.i.logging.InternalLoggerFactory.newDefaultFactory:61 : Using SLF4J as the default logging framework
+2022-02-01 15:13:57.638  WARN   18756 --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:591 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'topicListener' defined in file [C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main\uz\paynet\qulaypul\ofdservice\kafka\consumer\listener\TopicListener.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrServiceKafkaImpl' defined in file [C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main\uz\paynet\qulaypul\ofdservice\services\QrServiceKafkaImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-01 15:13:57.681 ERROR   18756 --- o.s.b.d.LoggingFailureAnalysisReporter.report:40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in uz.paynet.qulaypul.ofdservice.services.QrServiceKafkaImpl required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2022-02-01 15:14:19.516 DEBUG   3536 --- org.jboss.logging.logProvider:152 : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-02-01 15:14:19.521  INFO   3536 --- u.p.q.ofdservice.OfdserviceApplication.logStarting:55 : Starting OfdserviceApplication using Java 17.0.2 on MatlabNBU with PID 3536 (C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main started by matlab.babaev in C:\Users\matlab.babaev\IdeaProjects\ofdservice)
+2022-02-01 15:14:19.522 DEBUG   3536 --- u.p.q.ofdservice.OfdserviceApplication.logStarting:56 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-01 15:14:19.522  INFO   3536 --- u.p.q.ofdservice.OfdserviceApplication.logStartupProfileInfo:637 : No active profile set, falling back to default profiles: default
+2022-02-01 15:14:21.437 DEBUG   3536 --- i.m.c.u.i.logging.InternalLoggerFactory.newDefaultFactory:61 : Using SLF4J as the default logging framework
+2022-02-01 15:14:23.633  WARN   3536 --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:591 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'topicListener' defined in file [C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main\uz\paynet\qulaypul\ofdservice\kafka\consumer\listener\TopicListener.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrServiceKafkaImpl' defined in file [C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main\uz\paynet\qulaypul\ofdservice\services\QrServiceKafkaImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-01 15:14:23.676 ERROR   3536 --- o.s.b.d.LoggingFailureAnalysisReporter.report:40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in uz.paynet.qulaypul.ofdservice.services.QrServiceKafkaImpl required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2022-02-01 15:14:29.156 DEBUG   18632 --- org.jboss.logging.logProvider:152 : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-02-01 15:14:29.161  INFO   18632 --- u.p.q.ofdservice.OfdserviceApplication.logStarting:55 : Starting OfdserviceApplication using Java 17.0.2 on MatlabNBU with PID 18632 (C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main started by matlab.babaev in C:\Users\matlab.babaev\IdeaProjects\ofdservice)
+2022-02-01 15:14:29.162 DEBUG   18632 --- u.p.q.ofdservice.OfdserviceApplication.logStarting:56 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-01 15:14:29.162  INFO   18632 --- u.p.q.ofdservice.OfdserviceApplication.logStartupProfileInfo:637 : No active profile set, falling back to default profiles: default
+2022-02-01 15:14:31.048 DEBUG   18632 --- i.m.c.u.i.logging.InternalLoggerFactory.newDefaultFactory:61 : Using SLF4J as the default logging framework
+2022-02-01 15:14:33.169  WARN   18632 --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:591 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'topicListener' defined in file [C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main\uz\paynet\qulaypul\ofdservice\kafka\consumer\listener\TopicListener.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrServiceKafkaImpl' defined in file [C:\Users\matlab.babaev\IdeaProjects\ofdservice\build\classes\java\main\uz\paynet\qulaypul\ofdservice\services\QrServiceKafkaImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-01 15:14:33.214 ERROR   18632 --- o.s.b.d.LoggingFailureAnalysisReporter.report:40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in uz.paynet.qulaypul.ofdservice.services.QrServiceKafkaImpl required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
