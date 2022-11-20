@@ -1,7 +1,7 @@
 custom:
   loginstance: 1
 request:
-  host: http://192.168.81.11:8080/api/
+  host: http://localhost:8080/api/
   terminal: 111111
 payment:
   vat: 15.0
