@@ -40,7 +40,7 @@ spring:
       ddl-auto: update
 
   datasource:
-    url: jdbc:oracle:thin:@oracledb:1111:test
+    url: jdbc:oracle:test:@oracledb:1111:test
     username: admin
     password: admin
     driver-class-name: oracle.jdbc.OracleDriver
