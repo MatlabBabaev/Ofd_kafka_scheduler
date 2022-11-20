@@ -12,7 +12,7 @@ jhipster:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:${jhipster.registry.password}@192.168.11.11:8089/eureka/
+      defaultZone: http://admin:${jhipster.registry.password}@localhost:8089/eureka/
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     appname: qr
